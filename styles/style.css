@@ -16,12 +16,61 @@
   /* выше установили ограничения для секции */
   background-color:#f2f2f2;
   display: flex;
+  justify-content: end;
+  align-items: center;
+  border: solid 1px red;
+}
+.logo {
+  width: 183px;
+  height: 32px;
+}
+
+.logo__place_header {
+  position: absolute;
+  top:30px;
+  left:64px;
+  z-index: 3;
+ }
+
+.header__main_illustration {
+  height: 765px;
+  width: 608px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+.header__title {
+  font-size: 102px;
+  width: 730px;
+  text-align: left;
+  margin-left: 64px;
+  line-height: 96px;
+  font-weight: bold;
+  z-index: 4;
+ }
+
+.header__subtitle {
+  width: 338px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  z-index: 2;
+  align-self:flex-end;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0px;
+  top: 64px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
