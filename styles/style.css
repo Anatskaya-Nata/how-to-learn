@@ -143,7 +143,7 @@
   font-size: 60px;
   line-height: 1.15;
   font-weight: 600;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .section-subtitle{
@@ -195,8 +195,43 @@ margin-bottom: 0px;
 text-align: left;
 }
 
+.feynman{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 790px;
+  background-image: url('../images/feynman.png');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 867px 637px;
+ }
 
+.title{
+  width: 648px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 120px;
+  line-height: 1.15;
+  font-weight: 600;
+  text-align: center;
+  }
 
+.subtitle{
+  margin-top: 70px;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+}
+
+.link{
+position: absolute;
+align-items: end;
+top: 50%;
+right: 48px;
+}
 
 
 /* и элемента с модификатором вида ключ-значение */
