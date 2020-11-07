@@ -153,9 +153,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   align-items: baseline;
+  justify-content: space-between;
   }
 
 .table__cell{
@@ -256,7 +255,6 @@ right: 48px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
   margin-right: auto;
   margin-left: auto;
   justify-content: space-between;
