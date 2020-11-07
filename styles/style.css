@@ -85,16 +85,13 @@
 
 .two-colomns__brief{
   width: 175px;
- }
-
-.problems{
   margin:0;
   word-spacing: 0.5px;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-  color: #2f80ed;
-}
+  color: #2f80ed;*/
+ }
 
 .two-colomns__main-text{
   width: 80%;
@@ -164,7 +161,7 @@
 .table__cell{
   width: 250px;
   margin-top: 60px;
-   }
+}
 
 .table__heading{
   font-size: 24px;
@@ -212,7 +209,7 @@
   font-weight: normal;
 }
 
-.link{
+.feyeman__link{
 position: absolute;
 align-items: end;
 top: 50%;
@@ -346,7 +343,7 @@ right: 48px;
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
-
+  margin: 0px;
 }
 
 .footer__column-links{
@@ -362,27 +359,19 @@ right: 48px;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
-
 }
 
 .column_link{
   color: white;
 }
 
-.title_link{
-  margin: 0px;
-}
-
 .footer.footer__column_content_social{
-
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .footer__social-icon{
-
- }
-
-
-.net{
   margin: 0;
   text-align: left;
   font-size: 18px;
@@ -390,7 +379,14 @@ right: 48px;
   font-weight: bold;
  }
 
-ul.icon_list{
+.footer__icon_list{
+  margin-top: 0px;
+  margin-left: 0px;
+  align-self: center;
+}
+
+
+ul.footer__icon_list{
   list-style: none;
   margin-left: 0px;
   padding-left: 0px;
