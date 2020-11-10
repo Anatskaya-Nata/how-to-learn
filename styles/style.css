@@ -14,6 +14,7 @@
   justify-content: flex-start;
   align-items: center;
   position: relative;
+  z-index: 1;
 }
 
 .logo_place_header{
@@ -73,7 +74,6 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-
  }
 
 .description{
@@ -239,6 +239,7 @@
   position: relative;
   overflow: hidden;
   background-color: #1f1f1f;
+  z-index: 1;
  }
 
 .section-title_theme_dark{
@@ -251,8 +252,7 @@
  font-size: 60px;
   line-height: 1.15;
   font-weight: bold;
-  z-index: 1;
-}
+ }
 
 .section-subtitle_theme_dark{
   display: flex;
@@ -283,7 +283,6 @@
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
-  z-index: 2;
 }
 
 .table__heading_theme_dark{
@@ -308,6 +307,7 @@
  background-size: 877px 877px;
  width: 877px;
  height: 877px;
+ z-index: -1;
  }
 
 .footer{
@@ -334,7 +334,7 @@
   flex-basis: 711px;
   }
 
-.logo__place_footer{
+.logo_place_footer{
  display: flex;
   width: 183px;
   height: 35px;
