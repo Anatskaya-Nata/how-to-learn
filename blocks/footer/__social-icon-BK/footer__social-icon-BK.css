@@ -1,4 +1,4 @@
-.footer__social-icon{
+.footer__social-icon-BK{
 
   font-size: 18px;
   line-height: 30px;
@@ -7,9 +7,13 @@
     text-decoration: none;
 }
 
- .footer__social-icon:hover{
+.footer__social-icon-BK:hover{
   transition: color 1s linear 1s;
   opacity: 0.5;
  }
 
+.footer__social-icon-BK::before{
+  content:url(../../../images/vk_color_white.svg);
+  padding-right: 10px;
+}
 

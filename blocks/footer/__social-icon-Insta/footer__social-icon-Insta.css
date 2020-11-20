@@ -1,0 +1,17 @@
+.footer__social-icon-Insta{
+
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  color: white;
+    text-decoration: none;
+}
+.footer__social-icon-Insta:hover{
+  transition: color 1s linear 1s;
+  opacity: 0.5;
+ }
+
+.footer__social-icon-Insta::before{
+  content:url(../../../images/instagram_color_white.svg);
+  padding-right: 10px;
+}

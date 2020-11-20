@@ -66,8 +66,7 @@
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
-@import url(../blocks/footer/__social_icon/footer__social_icon.css);
-@import url(../blocks/footer/__social_icon/_FB/footer__social_icon_FB.css);
-@import url(../blocks/footer/__social_icon/_Insta/footer__social_icon_Insta.css);
-@import url(../blocks/footer/__social_icon/_BK/footer__social_icon_BK.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__social-icon-BK/footer__social-icon-BK.css);
+@import url(../blocks/footer/__social-icon-FB/footer__social-icon-FB.css);
+@import url(../blocks/footer/__social-icon-Insta/footer__social-icon-Insta.css);
