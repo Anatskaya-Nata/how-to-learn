@@ -6,9 +6,10 @@
   color: white;
     text-decoration: none;
 }
-    .footer__social-icon:hover{
-      transition: color 1s linear 1s;
-      opacity: 0.5;
-    }
+
+ .footer__social-icon:hover{
+  transition: color 1s linear 1s;
+  opacity: 0.5;
+ }
 
 
