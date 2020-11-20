@@ -1,0 +1,5 @@
+.footer__social_icon_BK::before{
+  content:url("../../../../images/vk_color_white.svg");
+  padding-right: 10px;
+}
+
