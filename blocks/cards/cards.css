@@ -5,4 +5,8 @@ flex-wrap: wrap;
 flex-direction: row;
 align-items: baseline;
 justify-content: flex-start;
+margin: 0 auto;
+padding-left: 0;
+
+
 }
