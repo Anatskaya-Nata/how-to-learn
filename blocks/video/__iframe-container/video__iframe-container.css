@@ -1,10 +1,13 @@
 .video__iframe-container{
   position: relative;
   margin-right: 20px;
-  width: 515px;
-  height: 316px;
-
 }
-.video__iframe-container:nth-last-child(1){
+.video__iframe-container:nth-child(2n){
   margin-right: 0px;
 }
+/* я как раз думала, что формула :nth-last-child() более универсальна,
+если количество элементов будет больше двух,
+  ведь, если элементов будет пять, например,то по формуле :nth-child(2n)
+  у четных элементов margin обнулится и они "прилипнут" к последующим
+  нечетным  я получится 1ый-(2ой3ий)-(4ый5ый) или я ошибаюсь? Хотя понятно, что при таком
+   размере _шакфьу. больше элементов не войдет.*/
